@@ -23,12 +23,12 @@ The resulting file looks like this:
             
 **As before, use search and replace operations to turn the file into a deletion script, as in the following example**
 
-aws lambda delete-function --function-name CloudGemSamples-CGSamplesDep13-Clo-ServiceLambda-hash
-aws lambda delete-function --function-name CloudGemSamples-AH-CoreResourceTypes-AWS_SQS_Queue
-aws lambda delete-function --function-name CloudGemSamples-AH-CoreResourceTypes-Custom_ServiceApi
-aws lambda delete-function --function-name CloudGemSamples-CRH-CoreResourceTypes-Custom_Helper
-aws lambda delete-function --function-name CloudGemSamples-CRH-CoreResourceTypes-Custom_Interfac-hash
-aws lambda delete-function --function-name CloudGemSamples-CGSamplesDep13-PackageVoiceLines-hash
+- aws lambda delete-function --function-name CloudGemSamples-CGSamplesDep13-Clo-ServiceLambda-hash
+- aws lambda delete-function --function-name CloudGemSamples-AH-CoreResourceTypes-AWS_SQS_Queue
+- aws lambda delete-function --function-name CloudGemSamples-AH-CoreResourceTypes-Custom_ServiceApi
+- aws lambda delete-function --function-name CloudGemSamples-CRH-CoreResourceTypes-Custom_Helper
+- aws lambda delete-function --function-name CloudGemSamples-CRH-CoreResourceTypes-Custom_Interfac-hash
+- aws lambda delete-function --function-name CloudGemSamples-CGSamplesDep13-PackageVoiceLines-hash
 
 # Instances
 
@@ -36,4 +36,4 @@ aws lambda delete-function --function-name CloudGemSamples-CGSamplesDep13-Packag
 
 # Buckets
 
-**aws s3api list-buckets | findstr /C:Name >s3buckets.txt
+- **aws s3api list-buckets | findstr /C:Name >s3buckets.txt
