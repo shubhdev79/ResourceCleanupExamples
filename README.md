@@ -34,6 +34,19 @@ The resulting file looks like this:
 
 - **aws ec2 describe-instances | findstr /C:InstanceId >instances.txt**
 
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+                    "InstanceId": "i-XXXXXXXXXXXXXXXXX",
+
+
 # Buckets
 
-- **aws s3api list-buckets | findstr /C:Name >s3buckets.txt
+- **aws s3api list-buckets | findstr /C:Name >s3buckets.txt**
+
+
